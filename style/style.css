@@ -252,8 +252,13 @@ h3{
     /* box-shadow: 0 4px 8px #0003; */
     transform: translateY(-10px);
   }
-.one, .two, .three, .four, .five, .six, .seven, .soc{
+.one, .two, .three, .four, .five, .six, .seven, .soc, .katra{
     transition: transform .3s,box-shadow .3s;
+}
+.katra:hover{
+    transition: all 300ms;
+    /* box-shadow: 0 4px 8px #0003; */
+    transform: translateY(-10px);
 }
   
 
