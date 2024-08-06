@@ -19,18 +19,6 @@ body{
     font-family: 'moncerad';
     font-weight: 500;
 } 
- 
- .player {
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    top: 0.25rem;
-    left: 0.25rem;
-    background-color: #1a1a1a;
-    padding: 1rem 1rem 1rem 1rem;
-    border-radius: 0.5rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  }
 .playandpause{
     min-width: 0.5rem;
     min-height: 0.5rem;
@@ -181,8 +169,7 @@ h3{
     box-sizing: border-box;
     margin: 1rem 0rem 0rem 0rem;
     width: 30rem;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: minmax(100px, auto);
+    grid-template-columns: repeat(3, 3fr);
     transition: transform .3s,box-shadow .3s;
 }
 .view{
@@ -218,7 +205,6 @@ h3{
     transition: all 300ms;
   }
 .two:hover {
-    /* box-shadow: 0 4px 8px #0003; */
     transform: translateY(-10px);
     transition: all 300ms;
   }
